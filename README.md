@@ -1,2 +1,2 @@
 # Stone-Paper-Scissor-Game
-Stone Paper Scissor
+A Stone Paper Scissor game in python.

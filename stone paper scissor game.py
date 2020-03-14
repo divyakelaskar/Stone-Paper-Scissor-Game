@@ -3,6 +3,7 @@ import random
 print("\n              S T O N E     P A P E R     S C I S S O R     G A M E\n") 
   
 while True: 
+#   rules
     print("Enter your choice : \n Press '1' to select 'Stone'. \n Press '2' to select 'Paper'. \n Press '3' to select 'Scissor'. \n") 
       
     c = int(input("YOUR turn: ")) 

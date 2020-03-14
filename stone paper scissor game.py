@@ -3,7 +3,7 @@ import random
 print("\n              S T O N E     P A P E R     S C I S S O R     G A M E\n") 
   
 while True: 
-    
+
     print("""Enter your choice : 
     a. Press '1' to select 'Stone'. 
     b. Press '2' to select 'Paper'.
@@ -15,13 +15,13 @@ while True:
         user_choice = int(input("Enter valid input: ")) 
 
     if user_choice == 1: 
-        c_nm = 'Stone'
+        computer_choice = 'Stone'
     elif user_choice == 2: 
-        c_nm = 'Paper'
+        computer_choice = 'Paper'
     else: 
-        c_nm = 'Scissor'
+        computer_choice = 'Scissor'
  
-    print("YOUR choice is: ",c_nm) 
+    print("YOUR choice is: ",computer_choice) 
     print("\nNow, its COMPUTER'S turn.......") 
 
     comp_c = random.randint(1, 3) 
@@ -30,15 +30,15 @@ while True:
         comp_c = random.randint(1, 3) 
 
     if comp_c == 1: 
-        comp_c_nm = 'Stone'
+        comp_computer_choice = 'Stone'
     elif comp_c == 2: 
-        comp_c_nm = 'Paper'
+        comp_computer_choice = 'Paper'
     else: 
-        comp_c_nm = 'Scissor'
+        comp_computer_choice = 'Scissor'
           
-    print("COMPUTER'S choice is: ",comp_c_nm,"\n") 
+    print("COMPUTER'S choice is: ",comp_computer_choice,"\n") 
   
-    print(c_nm," V/s ",comp_c_nm) 
+    print(computer_choice," V/s ",comp_computer_choice) 
 
     if((user_choice == 1 and comp_c == 2) or
       (user_choice == 2 and comp_c ==1 )): 
@@ -53,7 +53,7 @@ while True:
         print("Scissor wins !!!\n", end = "") 
         result = "Scissor"
 
-    if result == c_nm: 
+    if result == computer_choice: 
         print("\nYOU WIN !!!\n") 
     else: 
         print("\nCOMPUTER WINS !!!\n") 

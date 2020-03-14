@@ -24,29 +24,29 @@ while True:
     print("YOUR choice is: ",choice_name) 
     print("\nNow, its COMPUTER'S turn.......") 
 
-    comp_c = random.randint(1, 3) 
+    computer_choice = random.randint(1, 3) 
 
-    while comp_c == user_choice: 
-        comp_c = random.randint(1, 3) 
+    while computer_choice == user_choice: 
+        computer_choice = random.randint(1, 3) 
 
-    if comp_c == 1: 
-        comp_choice_name = 'Stone'
-    elif comp_c == 2: 
-        comp_choice_name = 'Paper'
+    if computer_choice == 1: 
+        computer_choicehoice_name = 'Stone'
+    elif computer_choice == 2: 
+        computer_choicehoice_name = 'Paper'
     else: 
-        comp_choice_name = 'Scissor'
+        computer_choicehoice_name = 'Scissor'
           
-    print("COMPUTER'S choice is: ",comp_choice_name,"\n") 
+    print("COMPUTER'S choice is: ",computer_choicehoice_name,"\n") 
   
-    print(choice_name," V/s ",comp_choice_name) 
+    print(choice_name," V/s ",computer_choicehoice_name) 
 
-    if((user_choice == 1 and comp_c == 2) or
-      (user_choice == 2 and comp_c ==1 )): 
+    if((user_choice == 1 and computer_choice == 2) or
+      (user_choice == 2 and computer_choice ==1 )): 
         print("Paper wins !!! \n", end = "") 
         result = "Paper"
           
-    elif((user_choice == 1 and comp_c == 3) or
-        (user_choice == 3 and comp_c == 1)): 
+    elif((user_choice == 1 and computer_choice == 3) or
+        (user_choice == 3 and computer_choice == 1)): 
         print("Stone wins !!! \n", end = "") 
         result = "Stone"
     else: 

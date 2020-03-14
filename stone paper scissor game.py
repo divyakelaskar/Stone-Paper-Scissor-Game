@@ -15,13 +15,13 @@ while True:
         user_choice = int(input("Enter valid input: ")) 
 
     if user_choice == 1: 
-        computer_choice = 'Stone'
+        choice_name = 'Stone'
     elif user_choice == 2: 
-        computer_choice = 'Paper'
+        choice_name = 'Paper'
     else: 
-        computer_choice = 'Scissor'
+        choice_name = 'Scissor'
  
-    print("YOUR choice is: ",computer_choice) 
+    print("YOUR choice is: ",choice_name) 
     print("\nNow, its COMPUTER'S turn.......") 
 
     comp_c = random.randint(1, 3) 
@@ -30,15 +30,15 @@ while True:
         comp_c = random.randint(1, 3) 
 
     if comp_c == 1: 
-        comp_computer_choice = 'Stone'
+        comp_choice_name = 'Stone'
     elif comp_c == 2: 
-        comp_computer_choice = 'Paper'
+        comp_choice_name = 'Paper'
     else: 
-        comp_computer_choice = 'Scissor'
+        comp_choice_name = 'Scissor'
           
-    print("COMPUTER'S choice is: ",comp_computer_choice,"\n") 
+    print("COMPUTER'S choice is: ",comp_choice_name,"\n") 
   
-    print(computer_choice," V/s ",comp_computer_choice) 
+    print(choice_name," V/s ",comp_choice_name) 
 
     if((user_choice == 1 and comp_c == 2) or
       (user_choice == 2 and comp_c ==1 )): 
@@ -53,7 +53,7 @@ while True:
         print("Scissor wins !!!\n", end = "") 
         result = "Scissor"
 
-    if result == computer_choice: 
+    if result == choice_name: 
         print("\nYOU WIN !!!\n") 
     else: 
         print("\nCOMPUTER WINS !!!\n") 

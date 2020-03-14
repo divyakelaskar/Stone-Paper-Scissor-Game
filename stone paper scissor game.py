@@ -1,12 +1,15 @@
 import random 
   
 print("\n              S T O N E     P A P E R     S C I S S O R     G A M E\n") 
-
+  
 while True: 
-    # rules
-    print("Enter your choice : \n Press '1' to select 'Stone'. \n Press '2' to select 'Paper'. \n Press '3' to select 'Scissor'. \n") 
+    
+    print("""Enter your choice : 
+    a. Press '1' to select 'Stone'. 
+    b. Press '2' to select 'Paper'.
+    c. Press '3' to select 'Scissor'.\n""") 
       
-    user_choice = int(input("YOUR turn: ")) 
+    user_choice = int(input("Enter YOUR choice: ")) 
   
     while user_choice > 3 or user_choice < 1: 
         user_choice = int(input("Enter valid input: ")) 

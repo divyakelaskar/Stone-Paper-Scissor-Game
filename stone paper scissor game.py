@@ -1,4 +1,4 @@
-import random 
+import random  
   
 print("\n              S T O N E     P A P E R     S C I S S O R     G A M E\n") 
 
@@ -9,7 +9,8 @@ while True:
     a. Press '1' to select 'Stone'. 
     b. Press '2' to select 'Paper'.
     c. Press '3' to select 'Scissor'.\n""") 
-      
+
+# Take input from user 
     user_choice = int(input("Enter YOUR choice: ")) 
   
     while user_choice > 3 or user_choice < 1: 

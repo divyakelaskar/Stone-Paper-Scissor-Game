@@ -13,6 +13,7 @@ while True:
 # Take input from user 
     user_choice = int(input("Enter YOUR choice: ")) 
   
+# If user enters values other than 1,2 or 3
     while user_choice > 3 or user_choice < 1: 
         user_choice = int(input("Enter valid input: ")) 
 

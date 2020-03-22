@@ -1,9 +1,10 @@
 import random 
   
 print("\n              S T O N E     P A P E R     S C I S S O R     G A M E\n") 
-  
-while True: 
 
+while True:
+  
+# Rules of the game   
     print("""Enter your choice : 
     a. Press '1' to select 'Stone'. 
     b. Press '2' to select 'Paper'.

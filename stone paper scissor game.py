@@ -16,6 +16,7 @@ while True:
 # If user enters values other than 1,2 or 3
     while user_choice > 3 or user_choice < 1: 
         user_choice = int(input("Enter valid input: ")) 
+      
 # Assigning numbers to the choices
     if user_choice == 1: 
         choice_name = 'Stone'

@@ -33,6 +33,7 @@ while True:
     while computer_choice == user_choice: 
         computer_choice = random.randint(1, 3) 
 
+# Assigning numbers to the computer's choices
     if computer_choice == 1: 
         computer_choicehoice_name = 'Stone'
     elif computer_choice == 2: 
